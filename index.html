@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virekh Talwar | ASP.NET Core Developer</title>
+    <meta name="description" content="Portfolio of Virekh Talwar — ASP.NET Core Developer." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">VT</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <span class="nav__toggleLine"></span>
+            <span class="nav__toggleLine"></span>
+            <span class="nav__toggleLine"></span>
+          </button>
+
+          <div class="nav__links" id="navLinks">
+            <a class="nav__link" href="#about">About</a>
+            <a class="nav__link" href="#experience">Experience</a>
+            <a class="nav__link" href="#projects">Projects</a>
+            <a class="nav__link" href="#skills">Skills</a>
+            <a class="nav__link" href="#education">Education</a>
+            <a class="nav__link" href="#contact">Contact</a>
+            <button class="theme" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="theme__icon" id="themeIcon" aria-hidden="true"></span>
+              <span class="theme__text" id="themeText">Dark</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Hero">
+        <div class="container hero__inner">
+          <div class="hero__content" data-aos="fade-up" data-aos-duration="850">
+            <p class="kicker">ASP.NET Core Developer</p>
+            <h1 class="hero__title">Virekh Talwar</h1>
+            <p class="hero__sub">
+              Detail-oriented developer building secure, scalable web applications using
+              ASP.NET Core MVC, Entity Framework Core, and SQL Server.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#projects">View Projects</a>
+              <a class="btn btn--ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero__meta">
+              <a class="chip" href="#experience">NIC Goa • Aug 2023 — Present</a>
+              <a class="chip" href="#skills">C# • ASP.NET Core • SQL Server</a>
+            </div>
+          </div>
+
+          <div class="hero__card" data-aos="fade-up" data-aos-delay="150" data-aos-duration="850">
+            <div class="card">
+              <div class="card__top">
+                <div class="avatar" aria-hidden="true">
+                  <span class="avatar__ring"></span>
+                  <span class="avatar__inner">VT</span>
+                </div>
+                <div>
+                  <p class="card__title">Backend-first. Product-minded.</p>
+                  <p class="card__desc">Clean architecture, maintainable code, stable releases.</p>
+                </div>
+              </div>
+              <div class="card__grid">
+                <div class="stat">
+                  <p class="stat__label">Focus</p>
+                  <p class="stat__value">ASP.NET Core MVC</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Data</p>
+                  <p class="stat__value">EF Core + SQL Server</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Style</p>
+                  <p class="stat__value">Clean Architecture</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Tools</p>
+                  <p class="stat__value">Git + GitHub</p>
+                </div>
+              </div>
+
+              <div class="card__actions">
+                <a class="btn btn--small btn--ghost" href="#about">Quick Profile</a>
+                <a class="btn btn--small btn--primary" href="#contact">Let’s talk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scrollCue" aria-hidden="true">
+          <span class="scrollCue__line"></span>
+          <span class="scrollCue__dot"></span>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Profile</h2>
+            <p class="section__sub">A quick overview of what I do and how I work.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel" data-aos="fade-up" data-aos-delay="50">
+              <p class="lead">
+                Detail-oriented ASP.NET Core Developer with experience building secure and scalable
+                web applications using ASP.NET Core MVC, Entity Framework Core, and SQL Server.
+              </p>
+              <p class="muted">
+                Currently working at NIC Goa since August 2023, contributing to government web
+                applications with a strong focus on backend development, clean architecture, and
+                maintainable code.
+              </p>
+
+              <div class="pillRow">
+                <span class="pill">Secure APIs</span>
+                <span class="pill">Database Integrations</span>
+                <span class="pill">Validation & Workflows</span>
+                <span class="pill">Performance</span>
+              </div>
+            </div>
+
+            <div class="panel" data-aos="fade-up" data-aos-delay="120">
+              <div class="highlights">
+                <div class="highlight">
+                  <div class="highlight__icon" data-icon="shield"></div>
+                  <div>
+                    <p class="highlight__title">Reliability</p>
+                    <p class="highlight__desc">Stable releases by focusing on correctness and maintainability.</p>
+                  </div>
+                </div>
+
+                <div class="highlight">
+                  <div class="highlight__icon" data-icon="database"></div>
+                  <div>
+                    <p class="highlight__title">Data-first</p>
+                    <p class="highlight__desc">Well-structured data models and efficient SQL Server interactions.</p>
+                  </div>
+                </div>
+
+                <div class="highlight">
+                  <div class="highlight__icon" data-icon="code"></div>
+                  <div>
+                    <p class="highlight__title">Clean Architecture</p>
+                    <p class="highlight__desc">Clear layers that simplify testing and future enhancements.</p>
+                  </div>
+                </div>
+
+                <div class="highlight">
+                  <div class="highlight__icon" data-icon="sparkles"></div>
+                  <div>
+                    <p class="highlight__title">Collaboration</p>
+                    <p class="highlight__desc">Cross-team work to fix bugs, ship features, and improve stability.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Work Experience</h2>
+            <p class="section__sub">Building public-facing systems with strong backend foundations.</p>
+          </div>
+
+          <div class="timeline" data-aos="fade-up" data-aos-delay="80">
+            <article class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <div class="timeline__top">
+                  <h3 class="timeline__title">National Informatics Centre (NIC), Goa</h3>
+                  <p class="timeline__role">Software Developer</p>
+                </div>
+                <p class="timeline__time">August 2023 — Present</p>
+                <ul class="list">
+                  <li>Working on government web applications using ASP.NET Core MVC and SQL Server.</li>
+                  <li>Developed and maintained backend logic, database integrations, and application workflows.</li>
+                  <li>Collaborated with teams to fix bugs, enhance features, and improve application stability.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <div class="timeline__top">
+                  <h3 class="timeline__title">SPACETRIK INFOTECH</h3>
+                  <p class="timeline__role">Full Stack Developer Intern</p>
+                </div>
+                <p class="timeline__time">Oct 2020 — Mar 2021</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Key Projects</h2>
+            <p class="section__sub">Selected work across modules, workflows, and production systems.</p>
+          </div>
+
+          <div class="cards" data-aos="fade-up" data-aos-delay="70">
+            <article class="card card--project">
+              <div class="card__badge">AI</div>
+              <h3 class="card__h">AI Chatbot for Ice Cream Store using OpenAI API</h3>
+              <p class="card__p">
+                Built an AI-powered chatbot experience to help customers explore flavors, get recommendations, and place orders.
+              </p>
+              <div class="tags">
+                <span class="tag">OpenAI API</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Chatbot</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__badge">Gov</div>
+              <h3 class="card__h">CM Scholarship Website</h3>
+              <p class="card__p">
+                Developed the Student Scholarship module including backend logic, validation, and database operations.
+              </p>
+              <ul class="list list--compact">
+                <li>Secure data handling and form workflows using ASP.NET Core MVC.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">ASP.NET Core MVC</span>
+                <span class="tag">EF Core</span>
+                <span class="tag">SQL Server</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__badge">Platform</div>
+              <h3 class="card__h">GoaNiwas</h3>
+              <p class="card__p">Worked on multiple user-facing and admin pages with backend integrations.</p>
+              <ul class="list list--compact">
+                <li>Implemented CRUD operations, business rules, and SQL Server interactions.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">CRUD</span>
+                <span class="tag">Business Rules</span>
+                <span class="tag">SQL Server</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__badge">System</div>
+              <h3 class="card__h">eVehicleManagement</h3>
+              <p class="card__p">Contributed to functional modules including backend services and database logic.</p>
+              <ul class="list list--compact">
+                <li>Ensured performance and reliability of application features.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Backend Services</span>
+                <span class="tag">Performance</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__badge">Architecture</div>
+              <h3 class="card__h">eNiwas</h3>
+              <p class="card__p">Clean-architecture based project with best-practice layering.</p>
+              <ul class="list list--compact">
+                <li>Identified and fixed bugs across application layers.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Clean Architecture</span>
+                <span class="tag">Bug Fixing</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Technical Skills</h2>
+            <p class="section__sub">Core stack and tooling I work with.</p>
+          </div>
+
+          <div class="skills" data-aos="fade-up" data-aos-delay="70">
+            <div class="skills__group">
+              <p class="skills__label">Backend</p>
+              <div class="skills__items">
+                <span class="skill">C#</span>
+                <span class="skill">ASP.NET Core MVC</span>
+                <span class="skill">Entity Framework Core</span>
+                <span class="skill">REST APIs</span>
+              </div>
+            </div>
+            <div class="skills__group">
+              <p class="skills__label">Database</p>
+              <div class="skills__items">
+                <span class="skill">SQL Server</span>
+              </div>
+            </div>
+            <div class="skills__group">
+              <p class="skills__label">Frontend</p>
+              <div class="skills__items">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+              </div>
+            </div>
+            <div class="skills__group">
+              <p class="skills__label">Tools</p>
+              <div class="skills__items">
+                <span class="skill">Git</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">Visual Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Education</h2>
+            <p class="section__sub">Academic background.</p>
+          </div>
+
+          <div class="grid grid--2" data-aos="fade-up" data-aos-delay="70">
+            <article class="edu">
+              <p class="edu__degree">Master of Computer Applications</p>
+              <p class="edu__inst">VTU, Belagavi</p>
+              <p class="edu__time">2021 — 2023</p>
+            </article>
+            <article class="edu">
+              <p class="edu__degree">Bachelor of Computer Applications</p>
+              <p class="edu__inst">Goa University</p>
+              <p class="edu__time">2018 — 2021</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head" data-aos="fade-up">
+            <h2 class="section__title">Contact</h2>
+            <p class="section__sub">Fastest way to reach me: WhatsApp, LinkedIn, or Email.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel" data-aos="fade-up" data-aos-delay="70">
+              <div class="contactCards">
+                <a class="contactCard" id="phoneLink" href="#">
+                  <div class="contactCard__icon" data-icon="phone"></div>
+                  <div>
+                    <p class="contactCard__title">Phone</p>
+                    <p class="contactCard__desc" id="phoneText">Call</p>
+                  </div>
+                  <span class="contactCard__arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="contactCard" id="whatsappLink" href="#" target="_blank" rel="noreferrer">
+                  <div class="contactCard__icon" data-icon="message-circle"></div>
+                  <div>
+                    <p class="contactCard__title">WhatsApp</p>
+                    <p class="contactCard__desc">Chat for quick questions</p>
+                  </div>
+                  <span class="contactCard__arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="contactCard" id="linkedinLink" href="#" target="_blank" rel="noreferrer">
+                  <div class="contactCard__icon" data-icon="linkedin"></div>
+                  <div>
+                    <p class="contactCard__title">LinkedIn</p>
+                    <p class="contactCard__desc">Connect professionally</p>
+                  </div>
+                  <span class="contactCard__arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="contactCard" id="githubLink" href="#" target="_blank" rel="noreferrer">
+                  <div class="contactCard__icon" data-icon="github"></div>
+                  <div>
+                    <p class="contactCard__title">GitHub</p>
+                    <p class="contactCard__desc">View code & repositories</p>
+                  </div>
+                  <span class="contactCard__arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a class="contactCard" id="emailLink" href="#">
+                  <div class="contactCard__icon" data-icon="mail"></div>
+                  <div>
+                    <p class="contactCard__title">Email</p>
+                    <p class="contactCard__desc" id="emailText">Open mail client</p>
+                  </div>
+                  <span class="contactCard__arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="panel" data-aos="fade-up" data-aos-delay="120">
+              <form class="form" id="contactForm">
+                <div class="field">
+                  <label class="label" for="name">Name</label>
+                  <input class="input" id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                </div>
+
+                <div class="field">
+                  <label class="label" for="subject">Subject</label>
+                  <input class="input" id="subject" name="subject" type="text" placeholder="Project / Opportunity" required />
+                </div>
+
+                <div class="field">
+                  <label class="label" for="message">Message</label>
+                  <textarea class="textarea" id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <div class="form__actions">
+                  <button class="btn btn--primary" type="submit">Send Email</button>
+                  <p class="form__hint">Sends via EmailJS (no backend required).</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">© <span id="year"></span> Virekh Talwar</p>
+        <a class="footer__top" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@0.394.0/dist/umd/lucide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
