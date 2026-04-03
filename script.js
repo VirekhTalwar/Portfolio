@@ -1,5 +1,5 @@
 const CONTACT = {
-  email: "your.email@example.com",
+  email: "virekh30@gmail.com",
   phone: "7483427243",
   whatsappPhoneE164: "7483427243",
   linkedinUrl: "https://www.linkedin.com/in/virekh-talwar-7408a6191/",
@@ -7,7 +7,7 @@ const CONTACT = {
 };
 
 const EMAILJS = {
-  serviceId: "service_zkhcagp",
+  serviceId: "service_p6zdmub",
   templateId: "",
   publicKey: "",
 };
@@ -51,37 +51,6 @@ function renderThemeUi(theme) {
     themeIcon.appendChild(i);
     if (window.lucide) window.lucide.createIcons();
   }
-}
-
-function initLenis() {
-  if (!window.Lenis) return;
-
-  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (reduce) return;
-
-  const lenis = new window.Lenis({
-    duration: 1.1,
-    smoothWheel: true,
-    smoothTouch: false,
-  });
-
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-
-  requestAnimationFrame(raf);
-}
-
-function initAos() {
-  if (!window.AOS) return;
-  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  window.AOS.init({
-    once: true,
-    duration: 750,
-    easing: "ease-out-cubic",
-    disable: reduce,
-  });
 }
 
 function initIcons() {
@@ -301,8 +270,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initThemeToggle();
 
   initIcons();
-  initAos();
-  initLenis();
 
   initMobileNav();
   initActiveNav();

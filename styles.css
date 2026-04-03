@@ -610,6 +610,116 @@ a {
   gap: 16px;
 }
 
+.cards--metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.card--metric {
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 18px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.18);
+}
+
+.metric__value {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 850;
+  letter-spacing: -0.03em;
+}
+
+.metric__label {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.panel--note {
+  margin-top: 16px;
+}
+
+.projectHero {
+  border-radius: var(--radius);
+  border: 1px solid rgba(110, 231, 255, 0.22);
+  background: linear-gradient(180deg, rgba(110, 231, 255, 0.10), rgba(255, 255, 255, 0.03));
+  padding: 18px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+.projectHero__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.projectHero__title {
+  margin: 10px 0 8px;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+}
+
+.projectHero__sub {
+  margin: 0;
+  color: var(--muted);
+}
+
+.projectHero__meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.projectHero__grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.projectBlock {
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 14px;
+}
+
+.projectBlock--span {
+  grid-column: 1 / -1;
+}
+
+.projectBlock__k {
+  margin: 0;
+  color: var(--faint);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.projectBlock__v {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.projectMini {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.projectMini p {
+  margin: 0;
+}
+
+.projectMini strong {
+  color: var(--text);
+}
+
 .card--project {
   position: relative;
   padding: 18px;
@@ -847,6 +957,14 @@ a {
   }
 
   .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards--metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projectHero__grid {
     grid-template-columns: 1fr;
   }
 

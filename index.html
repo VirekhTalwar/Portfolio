@@ -13,7 +13,6 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -35,9 +34,13 @@
 
           <div class="nav__links" id="navLinks">
             <a class="nav__link" href="#about">About</a>
+            <a class="nav__link" href="#highlights">Highlights</a>
             <a class="nav__link" href="#experience">Experience</a>
             <a class="nav__link" href="#projects">Projects</a>
-            <a class="nav__link" href="#skills">Skills</a>
+            <a class="nav__link" href="#impact">Impact</a>
+            <a class="nav__link" href="#how">How I Work</a>
+            <a class="nav__link" href="#thinking">System Thinking</a>
+            <a class="nav__link" href="#stack">Tech Stack</a>
             <a class="nav__link" href="#education">Education</a>
             <a class="nav__link" href="#contact">Contact</a>
             <button class="theme" id="themeToggle" type="button" aria-label="Toggle theme">
@@ -52,26 +55,27 @@
     <main id="main">
       <section class="hero" aria-label="Hero">
         <div class="container hero__inner">
-          <div class="hero__content" data-aos="fade-up" data-aos-duration="850">
-            <p class="kicker">ASP.NET Core Developer</p>
+          <div class="hero__content">
+            <p class="kicker">.NET Backend Developer • Production Systems</p>
             <h1 class="hero__title">Virekh Talwar</h1>
             <p class="hero__sub">
-              Detail-oriented developer building secure, scalable web applications using
-              ASP.NET Core MVC, Entity Framework Core, and SQL Server.
+              I build and maintain government web applications at National Informatics Centre (NIC), Goa.
+              My work focuses on reliable backend systems, production stability during scheme rollouts,
+              and clean, maintainable architecture.
             </p>
 
             <div class="hero__cta">
-              <a class="btn btn--primary" href="#projects">View Projects</a>
-              <a class="btn btn--ghost" href="#contact">Contact Me</a>
+              <a class="btn btn--primary" href="#projects">View Real Projects</a>
+              <a class="btn btn--ghost" href="#contact">Contact</a>
             </div>
 
             <div class="hero__meta">
-              <a class="chip" href="#experience">NIC Goa • Aug 2023 — Present</a>
-              <a class="chip" href="#skills">C# • ASP.NET Core • SQL Server</a>
+              <a class="chip" href="#projects">Vehicle QMS • Sole Ownership</a>
+              <a class="chip" href="#impact">Production Support • Rollouts</a>
             </div>
           </div>
 
-          <div class="hero__card" data-aos="fade-up" data-aos-delay="150" data-aos-duration="850">
+          <div class="hero__card">
             <div class="card">
               <div class="card__top">
                 <div class="avatar" aria-hidden="true">
@@ -79,60 +83,56 @@
                   <span class="avatar__inner">VT</span>
                 </div>
                 <div>
-                  <p class="card__title">Backend-first. Product-minded.</p>
-                  <p class="card__desc">Clean architecture, maintainable code, stable releases.</p>
+                  <p class="card__title">Backend-first. Ownership-driven.</p>
+                  <p class="card__desc">Systems that survive real users, real deadlines, and real constraints.</p>
                 </div>
               </div>
+
               <div class="card__grid">
                 <div class="stat">
-                  <p class="stat__label">Focus</p>
-                  <p class="stat__value">ASP.NET Core MVC</p>
+                  <p class="stat__label">Current</p>
+                  <p class="stat__value">NIC Goa</p>
                 </div>
                 <div class="stat">
-                  <p class="stat__label">Data</p>
-                  <p class="stat__value">EF Core + SQL Server</p>
+                  <p class="stat__label">Core</p>
+                  <p class="stat__value">ASP.NET Core + SQL</p>
                 </div>
                 <div class="stat">
-                  <p class="stat__label">Style</p>
+                  <p class="stat__label">Strength</p>
+                  <p class="stat__value">Production Stability</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Approach</p>
                   <p class="stat__value">Clean Architecture</p>
-                </div>
-                <div class="stat">
-                  <p class="stat__label">Tools</p>
-                  <p class="stat__value">Git + GitHub</p>
                 </div>
               </div>
 
               <div class="card__actions">
-                <a class="btn btn--small btn--ghost" href="#about">Quick Profile</a>
-                <a class="btn btn--small btn--primary" href="#contact">Let’s talk</a>
+                <a class="btn btn--small btn--ghost" href="#highlights">Key Highlights</a>
+                <a class="btn btn--small btn--primary" href="#contact">Reach out</a>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="scrollCue" aria-hidden="true">
-          <span class="scrollCue__line"></span>
-          <span class="scrollCue__dot"></span>
         </div>
       </section>
 
       <section class="section" id="about">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
+          <div class="section__head">
             <h2 class="section__title">Profile</h2>
-            <p class="section__sub">A quick overview of what I do and how I work.</p>
+            <p class="section__sub">Production-focused backend engineering for government systems.</p>
           </div>
 
           <div class="grid grid--2">
-            <div class="panel" data-aos="fade-up" data-aos-delay="50">
+            <div class="panel">
               <p class="lead">
-                Detail-oriented ASP.NET Core Developer with experience building secure and scalable
-                web applications using ASP.NET Core MVC, Entity Framework Core, and SQL Server.
+                I’m a .NET Developer at NIC Goa working on web applications for the Government of Goa.
+                I’ve supported live rollouts, fixed production issues under time pressure, and improved
+                workflows in systems used by real departments.
               </p>
               <p class="muted">
-                Currently working at NIC Goa since August 2023, contributing to government web
-                applications with a strong focus on backend development, clean architecture, and
-                maintainable code.
+                I’m comfortable working in both legacy systems (ASP.NET Web Forms) and modern architectures
+                (ASP.NET Core with Clean Architecture), with a focus on reliability, clarity, and long-term maintainability.
               </p>
 
               <div class="pillRow">
@@ -143,13 +143,13 @@
               </div>
             </div>
 
-            <div class="panel" data-aos="fade-up" data-aos-delay="120">
+            <div class="panel">
               <div class="highlights">
                 <div class="highlight">
                   <div class="highlight__icon" data-icon="shield"></div>
                   <div>
-                    <p class="highlight__title">Reliability</p>
-                    <p class="highlight__desc">Stable releases by focusing on correctness and maintainability.</p>
+                    <p class="highlight__title">Production Stability</p>
+                    <p class="highlight__desc">Triage, fix, and ship changes safely in live government systems.</p>
                   </div>
                 </div>
 
@@ -157,7 +157,7 @@
                   <div class="highlight__icon" data-icon="database"></div>
                   <div>
                     <p class="highlight__title">Data-first</p>
-                    <p class="highlight__desc">Well-structured data models and efficient SQL Server interactions.</p>
+                    <p class="highlight__desc">Strong SQL Server fundamentals, stored procedures, and reporting.</p>
                   </div>
                 </div>
 
@@ -165,15 +165,15 @@
                   <div class="highlight__icon" data-icon="code"></div>
                   <div>
                     <p class="highlight__title">Clean Architecture</p>
-                    <p class="highlight__desc">Clear layers that simplify testing and future enhancements.</p>
+                    <p class="highlight__desc">Maintainable layering that supports change without breaking production.</p>
                   </div>
                 </div>
 
                 <div class="highlight">
                   <div class="highlight__icon" data-icon="sparkles"></div>
                   <div>
-                    <p class="highlight__title">Collaboration</p>
-                    <p class="highlight__desc">Cross-team work to fix bugs, ship features, and improve stability.</p>
+                    <p class="highlight__title">Stakeholder Communication</p>
+                    <p class="highlight__desc">Direct interaction with senior government stakeholders for clarity and delivery.</p>
                   </div>
                 </div>
               </div>
@@ -182,26 +182,61 @@
         </div>
       </section>
 
-      <section class="section" id="experience">
+      <section class="section" id="highlights">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
-            <h2 class="section__title">Work Experience</h2>
-            <p class="section__sub">Building public-facing systems with strong backend foundations.</p>
+          <div class="section__head">
+            <h2 class="section__title">Key Highlights</h2>
+            <p class="section__sub">A snapshot of real-world ownership and production responsibility.</p>
           </div>
 
-          <div class="timeline" data-aos="fade-up" data-aos-delay="80">
+          <div class="cards cards--metrics">
+            <div class="card card--metric">
+              <p class="metric__value">4</p>
+              <p class="metric__label">Government projects delivered / supported</p>
+            </div>
+            <div class="card card--metric">
+              <p class="metric__value">Live</p>
+              <p class="metric__label">Production issue resolution during scheme rollouts</p>
+            </div>
+            <div class="card card--metric">
+              <p class="metric__value">Lead</p>
+              <p class="metric__label">Vehicle Queue Management System (QMS) development</p>
+            </div>
+            <div class="card card--metric">
+              <p class="metric__value">Owner</p>
+              <p class="metric__label">Sole ownership of a system used for fleet operations</p>
+            </div>
+          </div>
+
+          <div class="panel panel--note">
+            <p class="muted">
+              I work closely with real users, real constraints, and high accountability environments—where stability,
+              auditability, and correctness matter more than shiny demos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Experience</h2>
+            <p class="section__sub">Production work across modern .NET and legacy systems.</p>
+          </div>
+
+          <div class="timeline">
             <article class="timeline__item">
               <div class="timeline__dot" aria-hidden="true"></div>
               <div class="timeline__content">
                 <div class="timeline__top">
                   <h3 class="timeline__title">National Informatics Centre (NIC), Goa</h3>
-                  <p class="timeline__role">Software Developer</p>
+                  <p class="timeline__role">Software Developer (.NET)</p>
                 </div>
-                <p class="timeline__time">August 2023 — Present</p>
+                <p class="timeline__time">Aug 2023 — Present</p>
                 <ul class="list">
-                  <li>Working on government web applications using ASP.NET Core MVC and SQL Server.</li>
-                  <li>Developed and maintained backend logic, database integrations, and application workflows.</li>
-                  <li>Collaborated with teams to fix bugs, enhance features, and improve application stability.</li>
+                  <li>Build and maintain government web applications using ASP.NET Core and SQL Server.</li>
+                  <li>Resolved production issues during live scheme rollouts with a focus on stability and correctness.</li>
+                  <li>Work across modern and legacy codebases, improving workflows and reliability.</li>
                 </ul>
               </div>
             </article>
@@ -222,113 +257,212 @@
 
       <section class="section" id="projects">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
-            <h2 class="section__title">Key Projects</h2>
-            <p class="section__sub">Selected work across modules, workflows, and production systems.</p>
+          <div class="section__head">
+            <h2 class="section__title">Projects</h2>
+            <p class="section__sub">Real government systems with clear ownership, scope, and impact.</p>
           </div>
 
-          <div class="cards" data-aos="fade-up" data-aos-delay="70">
+          <article class="projectHero">
+            <div class="projectHero__head">
+              <div>
+                <p class="kicker">Hero Project</p>
+                <h3 class="projectHero__title">Vehicle Queue Management System (QMS)</h3>
+                <p class="projectHero__sub">Government fleet operations • Allocation, tracking, and operational visibility</p>
+              </div>
+              <div class="projectHero__meta">
+                <span class="pill">Sole Developer</span>
+                <span class="pill">Ownership Mid-Project → Deployment</span>
+                <span class="pill">Presented to State Secretary</span>
+              </div>
+            </div>
+
+            <div class="projectHero__grid">
+              <div class="projectBlock">
+                <p class="projectBlock__k">Problem</p>
+                <p class="projectBlock__v">Vehicle allocation and tracking required consistent queue logic and auditability under real operational load.</p>
+              </div>
+              <div class="projectBlock">
+                <p class="projectBlock__k">My role</p>
+                <p class="projectBlock__v">Sole developer responsible for development, taking ownership mid-project and driving to deployment.</p>
+              </div>
+              <div class="projectBlock">
+                <p class="projectBlock__k">What I built</p>
+                <p class="projectBlock__v">Queue logic, allocation workflow, core backend services, database design, and operational reporting.</p>
+              </div>
+              <div class="projectBlock">
+                <p class="projectBlock__k">Tech stack</p>
+                <p class="projectBlock__v">ASP.NET Core, SQL Server, Clean Architecture</p>
+              </div>
+              <div class="projectBlock projectBlock--span">
+                <p class="projectBlock__k">Impact</p>
+                <p class="projectBlock__v">Improved operational clarity for fleet usage and enabled structured allocation decisions; presented directly to senior officials.</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="cards">
             <article class="card card--project">
-              <div class="card__badge">AI</div>
-              <h3 class="card__h">AI Chatbot for Ice Cream Store using OpenAI API</h3>
-              <p class="card__p">
-                Built an AI-powered chatbot experience to help customers explore flavors, get recommendations, and place orders.
-              </p>
-              <div class="tags">
-                <span class="tag">OpenAI API</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Chatbot</span>
+              <div class="card__badge">Gov</div>
+              <h3 class="card__h">CM Scholarship System</h3>
+              <p class="card__p">Live scholarship system used during government scheme rollouts.</p>
+              <div class="projectMini">
+                <p><strong>Problem:</strong> Production stability and workflow correctness during rollout pressure.</p>
+                <p><strong>Role:</strong> Production issue resolution and reliability improvements.</p>
+                <p><strong>Built:</strong> Workflow fixes, reliability enhancements, and reporting features.</p>
+                <p><strong>Stack:</strong> ASP.NET Core MVC, SQL Server</p>
+                <p><strong>Impact:</strong> Reduced disruption during rollout and improved reporting visibility.</p>
               </div>
             </article>
 
             <article class="card card--project">
               <div class="card__badge">Gov</div>
-              <h3 class="card__h">CM Scholarship Website</h3>
-              <p class="card__p">
-                Developed the Student Scholarship module including backend logic, validation, and database operations.
-              </p>
-              <ul class="list list--compact">
-                <li>Secure data handling and form workflows using ASP.NET Core MVC.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">ASP.NET Core MVC</span>
-                <span class="tag">EF Core</span>
-                <span class="tag">SQL Server</span>
+              <h3 class="card__h">eNivas Accommodation System</h3>
+              <p class="card__p">Booking and accommodation management with ongoing maintenance requirements.</p>
+              <div class="projectMini">
+                <p><strong>Problem:</strong> Booking workflow required fixes and enhancements while keeping system stable.</p>
+                <p><strong>Role:</strong> Maintenance and feature enhancements.</p>
+                <p><strong>Built:</strong> Backend logic updates and database changes to support new requirements.</p>
+                <p><strong>Stack:</strong> ASP.NET Core, SQL Server</p>
+                <p><strong>Impact:</strong> Improved workflow reliability and reduced recurring issues.</p>
               </div>
             </article>
 
             <article class="card card--project">
-              <div class="card__badge">Platform</div>
-              <h3 class="card__h">GoaNiwas</h3>
-              <p class="card__p">Worked on multiple user-facing and admin pages with backend integrations.</p>
-              <ul class="list list--compact">
-                <li>Implemented CRUD operations, business rules, and SQL Server interactions.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">CRUD</span>
-                <span class="tag">Business Rules</span>
-                <span class="tag">SQL Server</span>
-              </div>
-            </article>
-
-            <article class="card card--project">
-              <div class="card__badge">System</div>
-              <h3 class="card__h">eVehicleManagement</h3>
-              <p class="card__p">Contributed to functional modules including backend services and database logic.</p>
-              <ul class="list list--compact">
-                <li>Ensured performance and reliability of application features.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">Backend Services</span>
-                <span class="tag">Performance</span>
-              </div>
-            </article>
-
-            <article class="card card--project">
-              <div class="card__badge">Architecture</div>
-              <h3 class="card__h">eNiwas</h3>
-              <p class="card__p">Clean-architecture based project with best-practice layering.</p>
-              <ul class="list list--compact">
-                <li>Identified and fixed bugs across application layers.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">Clean Architecture</span>
-                <span class="tag">Bug Fixing</span>
+              <div class="card__badge">Legacy</div>
+              <h3 class="card__h">Goa Bhavan Management System</h3>
+              <p class="card__p">Legacy reservation and allocation system requiring careful change management.</p>
+              <div class="projectMini">
+                <p><strong>Problem:</strong> Reservation and allocation logic needed improvements without breaking legacy behavior.</p>
+                <p><strong>Role:</strong> Enhancements and maintenance in legacy environment.</p>
+                <p><strong>Built:</strong> Booking workflow improvements and logic fixes.</p>
+                <p><strong>Stack:</strong> ASP.NET Web Forms, SQL Server</p>
+                <p><strong>Impact:</strong> Better allocation correctness and smoother booking operations.</p>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="skills">
+      <section class="section" id="impact">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
-            <h2 class="section__title">Technical Skills</h2>
-            <p class="section__sub">Core stack and tooling I work with.</p>
+          <div class="section__head">
+            <h2 class="section__title">Impact / Experience</h2>
+            <p class="section__sub">Work that reflects production responsibility, not just feature delivery.</p>
           </div>
 
-          <div class="skills" data-aos="fade-up" data-aos-delay="70">
+          <div class="grid grid--2">
+            <div class="panel">
+              <p class="lead">Production issue handling</p>
+              <p class="muted">I investigate issues using logs, database traces, and reproducible steps, then ship fixes with minimal risk and clear rollback awareness.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Government systems constraints</p>
+              <p class="muted">I work with auditability, legacy dependencies, and deadline-driven scheme rollouts—optimizing for correctness and stability.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Workflow improvements</p>
+              <p class="muted">I simplify complex flows into maintainable backend logic and database operations that are easier to support and extend.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Stakeholder alignment</p>
+              <p class="muted">I clarify requirements through direct discussion and ensure the system matches real operational needs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">How I Work</h2>
+            <p class="section__sub">A practical approach focused on reducing risk and increasing clarity.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <p class="lead">Debugging mindset</p>
+              <p class="muted">Start with symptoms, isolate root cause, verify with data (logs/DB), then implement the smallest safe change.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Working with real users</p>
+              <p class="muted">I translate real-world workflows into systems, validate assumptions early, and iterate with feedback.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Maintainability</p>
+              <p class="muted">I structure code so future changes are predictable—clear layers, explicit boundaries, and readable naming.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Delivery under constraints</p>
+              <p class="muted">I plan for deadlines without compromising correctness—prioritizing stability and traceability.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="thinking">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">System Thinking</h2>
+            <p class="section__sub">I treat features as part of a bigger system: data, users, and operations.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <p class="lead">Operational view</p>
+              <p class="muted">Who uses this? What happens when it fails? How do we observe and recover?</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Data integrity</p>
+              <p class="muted">I model workflows around consistent data states and predictable transitions.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Change management</p>
+              <p class="muted">Legacy systems require safe incremental changes, careful testing, and minimal disruptions.</p>
+            </div>
+            <div class="panel">
+              <p class="lead">Architecture as leverage</p>
+              <p class="muted">Clean Architecture helps keep complexity manageable as the system grows.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="stack">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Tech Stack</h2>
+            <p class="section__sub">Grouped by what I use it for.</p>
+          </div>
+
+          <div class="skills">
             <div class="skills__group">
               <p class="skills__label">Backend</p>
               <div class="skills__items">
                 <span class="skill">C#</span>
+                <span class="skill">ASP.NET Core</span>
+                <span class="skill">REST APIs</span>
                 <span class="skill">ASP.NET Core MVC</span>
                 <span class="skill">Entity Framework Core</span>
-                <span class="skill">REST APIs</span>
               </div>
             </div>
             <div class="skills__group">
               <p class="skills__label">Database</p>
               <div class="skills__items">
                 <span class="skill">SQL Server</span>
+                <span class="skill">Stored Procedures</span>
+                <span class="skill">REST APIs</span>
               </div>
             </div>
             <div class="skills__group">
-              <p class="skills__label">Frontend</p>
+              <p class="skills__label">Architecture</p>
               <div class="skills__items">
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">JavaScript</span>
+                <span class="skill">Clean Architecture</span>
+              </div>
+            </div>
+            <div class="skills__group">
+              <p class="skills__label">Legacy</p>
+              <div class="skills__items">
+                <span class="skill">ASP.NET Web Forms</span>
               </div>
             </div>
             <div class="skills__group">
@@ -345,12 +479,12 @@
 
       <section class="section" id="education">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
+          <div class="section__head">
             <h2 class="section__title">Education</h2>
             <p class="section__sub">Academic background.</p>
           </div>
 
-          <div class="grid grid--2" data-aos="fade-up" data-aos-delay="70">
+          <div class="grid grid--2">
             <article class="edu">
               <p class="edu__degree">Master of Computer Applications</p>
               <p class="edu__inst">VTU, Belagavi</p>
@@ -367,13 +501,13 @@
 
       <section class="section" id="contact">
         <div class="container">
-          <div class="section__head" data-aos="fade-up">
+          <div class="section__head">
             <h2 class="section__title">Contact</h2>
-            <p class="section__sub">Fastest way to reach me: WhatsApp, LinkedIn, or Email.</p>
+            <p class="section__sub">Fastest way to reach me: Phone, WhatsApp, LinkedIn, or Email.</p>
           </div>
 
           <div class="grid grid--2">
-            <div class="panel" data-aos="fade-up" data-aos-delay="70">
+            <div class="panel">
               <div class="contactCards">
                 <a class="contactCard" id="phoneLink" href="#">
                   <div class="contactCard__icon" data-icon="phone"></div>
@@ -422,7 +556,7 @@
               </div>
             </div>
 
-            <div class="panel" data-aos="fade-up" data-aos-delay="120">
+            <div class="panel">
               <form class="form" id="contactForm">
                 <div class="field">
                   <label class="label" for="name">Name</label>
@@ -458,8 +592,6 @@
     </footer>
 
     <script src="https://unpkg.com/lucide@0.394.0/dist/umd/lucide.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="./script.js"></script>
   </body>
